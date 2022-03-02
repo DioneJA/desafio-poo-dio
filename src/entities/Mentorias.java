@@ -22,7 +22,7 @@ public class Mentorias extends Conteudo {
 
 	@Override
 	public String toString() {
-		return "------- Mentorias -------" + "\nTitulo: " + titulo + "\nDescricao: " + descricao + "\nData: " + date;
+		return "\n------- Mentorias -------" + "\nTitulo: " + titulo + "\nDescricao: " + descricao + "\nData: " + date;
 	}
 
 	@Override

@@ -15,11 +15,30 @@ public class Bootcamp {
 	private Set<Dev> inscritos = new HashSet<>();// Ordem nao importa
 	private Set<Conteudo> conteudos = new LinkedHashSet<Conteudo>();// Ordem importa
 	
+	
 	public String getNome() {
 		return nome;
 	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 	public String getDescricao() {
 		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public Set<Dev> getInscritos() {
+		return inscritos;
+	}
+	public void setInscritos(Set<Dev> inscritos) {
+		this.inscritos = inscritos;
+	}
+	public Set<Conteudo> getConteudos() {
+		return conteudos;
+	}
+	public void setConteudos(Set<Conteudo> conteudos) {
+		this.conteudos = conteudos;
 	}
 	public LocalDate getDataInicial() {
 		return dataInicial;
